@@ -59,7 +59,6 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
                 print (error.localizedDescription)
             } else if let data = data,
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
-                print(dataDictionary)
                 
                 // this is what we got from the API call to the network
                 let responseDictionary = dataDictionary["response"] as! [String:Any]
