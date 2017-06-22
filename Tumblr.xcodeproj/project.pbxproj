@@ -18,6 +18,7 @@
 		A0EB73251EFAF5CA0083CA8F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB73241EFAF5CA0083CA8F /* PhotoCell.swift */; };
 		AF1FFEF1333D8A137090ED6D /* Pods_TumblrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1AD719BE9E83DCF377E22FA /* Pods_TumblrUITests.framework */; };
 		E94CA9F2D25B8D6170452E12 /* Pods_TumblrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49333339E9A7A2B511DF810E /* Pods_TumblrTests.framework */; };
+		FAE928641EFC5E3900FD0933 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE928631EFC5E3900FD0933 /* PhotoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		A0EB73241EFAF5CA0083CA8F /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		B384DCCB8F0DABE35F0BA173 /* Pods-Tumblr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tumblr/Pods-Tumblr.debug.xcconfig"; sourceTree = "<group>"; };
 		E1AD719BE9E83DCF377E22FA /* Pods_TumblrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE928631EFC5E3900FD0933 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				A0EB72FD1EFAEC710083CA8F /* LaunchScreen.storyboard */,
 				A0EB73001EFAEC710083CA8F /* Info.plist */,
 				A0EB73241EFAF5CA0083CA8F /* PhotoCell.swift */,
+				FAE928631EFC5E3900FD0933 /* PhotoDetailViewController.swift */,
 			);
 			path = Tumblr;
 			sourceTree = "<group>";
@@ -454,6 +457,7 @@
 			files = (
 				A0EB72F51EFAEC710083CA8F /* AppDelegate.swift in Sources */,
 				A0EB73251EFAF5CA0083CA8F /* PhotoCell.swift in Sources */,
+				FAE928641EFC5E3900FD0933 /* PhotoDetailViewController.swift in Sources */,
 				A0EB73231EFAEEAF0083CA8F /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
